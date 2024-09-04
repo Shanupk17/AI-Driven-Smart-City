@@ -5,10 +5,10 @@ import requests
 import googlemaps
 
 app = Flask(__name__)
-app.secret_key = '7cb20e6b5b657663843f4cd025c71f364686f447ed235709'
+app.secret_key = '*********************************************'
 
 # Initialize Google Maps client
-gmaps = googlemaps.Client(key='AIzaSyDybq2mxujekZVivmr03Y5-GGHXesn4TLI')
+gmaps = googlemaps.Client(key='**********************************************')
 
 # Initialize Gemini API key and URL
 gemini_api_key = 'AIzaSyDeqaZ-9kxMy8WeWOnQbgLy2EIkGOAkCPg'
